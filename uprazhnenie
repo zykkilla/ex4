@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+  int frukti[8]={1, 1, 1, 1, 1, 1, 1, 1};
+  int size = sizeof(frukti) /
+  sizeof(frukti[0]);
+  printf("В коробку для фруктов помещается %d фруктов.\n", size);
+  return 0;
+}
